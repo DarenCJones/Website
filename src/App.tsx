@@ -7,17 +7,20 @@ import Contact from "./pages/contact";
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-      <footer>
-        <p>&copy; 2024 Daren Jones. All rights reserved.</p>
-      </footer>
-    </Router>
+    <>
+      <div>temp working or not</div>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <footer>
+          <p>&copy; 2024 Daren Jones. All rights reserved.</p>
+        </footer>
+      </Router>
+    </>
   );
 }
 
